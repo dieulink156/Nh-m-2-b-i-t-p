@@ -1,0 +1,18 @@
+4.3 Các độ đo đánh giá hiệu năng
+
+Accuracy (Độ chính xác):
+
+Độ chính xác là tỷ lệ giữa số lượng các dự đoán đúng và tổng số mẫu trong tập dữ liệu. Mặc dù độ chính xác có thể là một độ đo hữu ích, nhưng nó không phản ánh chính xác hiệu suất của mô hình khi các lớp trong dữ liệu không cân bằng.
+Precision (Độ chính xác của dương tính):
+
+Precision đo lường tỷ lệ giữa số lượng các dự đoán dương tính đúng và tổng số dự đoán dương tính. Nó là một độ đo của khả năng của mô hình trong việc tránh các dự đoán sai tích cực (false positive). Precision càng cao thì tỷ lệ dự đoán đúng càng cao.
+Recall (Tỷ lệ bao phủ):
+
+Tỷ lệ bao phủ đo lường tỷ lệ giữa số lượng các dự đoán dương tính đúng và tổng số mẫu dương tính trong tập dữ liệu. Nó là một độ đo của khả năng của mô hình trong việc phát hiện tất cả các trường hợp tích cực có sẵn (true positive). Recall càng cao thì tỷ lệ bao phủ càng tốt.
+F1-score:
+
+F1-score là trung bình điều hòa giữa precision và recall. Nó cung cấp một đánh giá tổng thể về hiệu suất của mô hình, đặc biệt là khi có sự không cân bằng giữa các lớp trong tập dữ liệu. F1-score càng cao thì mô hình càng tốt.
+ROC Curve (Receiver Operating Characteristic Curve) và AUC (Area Under the Curve):
+
+Đường cong ROC là biểu đồ của tỷ lệ True Positive Rate (TPR) so với tỷ lệ False Positive Rate (FPR) ở các ngưỡng quyết định khác nhau. AUC là diện tích dưới đường cong ROC và là một độ đo tổng thể của hiệu suất của mô hình. AUC càng cao, mô hình càng tốt trong việc phân loại các mẫu.
+Các độ đo này cung cấp thông tin chi tiết và toàn diện về hiệu suất của mô hình phân loại, giúp ta đánh giá và so sánh giữa các mô hình khác nhau. Trong thư viện scikit-learn, các hàm như classification_report, roc_curve và auc được cung cấp để tính toán và hiển thị các độ đo này.
