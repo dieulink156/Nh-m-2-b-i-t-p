@@ -1,0 +1,12 @@
+Các phương pháp cơ sở
+
+Random Forest Classifier (RFC):
+
+Random Forest là một phương pháp học máy dựa trên việc xây dựng nhiều cây quyết định trong quá trình huấn luyện và kết hợp kết quả từ tất cả các cây con để đưa ra dự đoán. Mỗi cây quyết định được xây dựng dựa trên một tập dữ liệu con được lấy mẫu từ dữ liệu gốc và sử dụng một phần của các đặc trưng. Sau đó, kết quả từ tất cả các cây con được kết hợp thông qua việc bỏ phiếu để đưa ra dự đoán cuối cùng. Random Forest thường cho kết quả tốt trong nhiều tình huống khác nhau và ít bị ảnh hưởng bởi overfitting.
+Gradient Boosted Tree (GBT):
+
+Gradient Boosted Tree là một phương pháp khác trong học máy, nơi các cây quyết định được tạo ra tuần tự. Mỗi cây trong GBT cố gắng cải thiện lỗi của các cây trước đó bằng cách tập trung vào các mẫu bị sai lệch. GBT thường cho hiệu suất dự đoán tốt hơn so với Random Forest nhưng đồng thời cũng đòi hỏi thời gian huấn luyện lâu hơn và cần nhiều tinh chỉnh tham số hơn.
+KMeans Clustering:
+
+KMeans là một thuật toán phân cụm không giám sát được sử dụng để phân nhóm dữ liệu thành các nhóm khác nhau dựa trên các đặc trưng của chúng. Phương pháp này cố gắng tìm ra các trung tâm cụm sao cho tổng bình phương khoảng cách từ các điểm dữ liệu đến trung tâm cụm là nhỏ nhất có thể. KMeans thường được sử dụng để phân loại khách hàng hoặc nhóm khách hàng dựa trên hành vi hoặc các yếu tố khác trong dữ liệu telecom.
+Các phương pháp cơ sở này đều có thể cung cấp kết quả tốt khi được áp dụng đúng cách và tinh chỉnh tham số phù hợp. Trong đoạn mã, chúng ta đã sử dụng các module và công cụ từ thư viện PySpark và scikit-learn để triển khai và đánh giá các phương pháp này.
