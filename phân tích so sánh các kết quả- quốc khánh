@@ -1,0 +1,24 @@
+
+4.6 Phân tích so sánh các kết quả
+
+Trong phần này, chúng ta sẽ thực hiện phân tích và so sánh các kết quả thu được từ các phương pháp cơ sở đã được áp dụng. Cụ thể, chúng ta sẽ xem xét các phương pháp Random Forest Classifier (RFC), Gradient Boosted Tree (GBT), và KMeans Clustering. Dưới đây là một số bước mà chúng ta có thể thực hiện trong phân tích này:
+
+Đánh giá hiệu suất của mô hình phân loại (RFC và GBT):
+
+Sử dụng các độ đo như Accuracy, Precision, Recall, F1-score để đánh giá hiệu suất của mô hình phân loại RFC và GBT trên tập dữ liệu kiểm tra.
+Vẽ biểu đồ ROC và tính diện tích dưới đường cong ROC (AUC) để so sánh khả năng phân loại của hai mô hình.
+Đánh giá hiệu suất của mô hình phân cụm (KMeans):
+
+Sử dụng các phương pháp đánh giá như Silhouette Score để đánh giá chất lượng của các cụm được tạo ra bởi KMeans.
+So sánh kết quả của KMeans với nhãn thực tế (nếu có) để xác định mức độ phân loại của thuật toán.
+So sánh kết quả và lựa chọn mô hình tốt nhất:
+
+So sánh kết quả hiệu suất của RFC và GBT để xác định mô hình nào hoạt động tốt hơn trên tập dữ liệu đã cho.
+Đánh giá tính khả thi của việc sử dụng KMeans để phân cụm khách hàng và xem xét khả năng sử dụng thông tin này trong các chiến lược kinh doanh.
+Tinh chỉnh tham số (nếu cần):
+
+Nếu cần thiết, thực hiện tinh chỉnh tham số cho các mô hình để cải thiện hiệu suất của chúng trên tập dữ liệu kiểm tra.
+Tóm tắt và kết luận:
+
+Tổng kết kết quả của phân tích và so sánh để xác định mô hình tốt nhất cho bài toán telecom cụ thể này.
+Bằng cách thực hiện các bước trên, chúng ta có thể đánh giá và so sánh hiệu suất của các phương pháp cơ sở khác nhau và lựa chọn mô hình phù hợp nhất cho bài toán này.
